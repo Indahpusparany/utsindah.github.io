@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>STIE Indonesia</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Noto+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="icon" href="imgs/logo_stie.jpg" type="image/png" sizes="16x16">
+    </head>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" class='fas fa-angle-double-up' style='font-size:26px'></button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+            <div class="container">
+                <a class="navbar-brand" href="index.php"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="show-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Beranda <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tentangkamar">Tentang STIE Indonesia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#room">Visi Misi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Galeri</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kontak</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <header id="home">
+            <div class="small-container">
+
+                <div class="row">
+                    <div class="col-lg-4 col-12 lobster-font-family d-flex align-items-center">
+                        <img src="imgs/logo_stie.png" style="width:80%;" alt="#" /><br>
+                        <h2>Sekolah Tinggi Ilmu Ekonomi Indonesia</h2>
+                    </div>
+                </div>
+                <div class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center">
+                    <h1 class="text-capitalize">Selamat Datang di <br><span>STIE INDONESIA</span></h1>
+                        <div id="headerslider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item carousel-three active"></div>
+                            <div class="carousel-item carousel-two"></div>
+                            <div class="carousel-item carousel-one"></div>
+                        </div>
+                        <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+                            <i class="fas fa-angle-double-left"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+                            <i class="fas fa-angle-double-right"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        </div>
+                </div>
+            </div>
+            <div class="st-rec"></div>
+            <div class="rd-rec"></div>
+        </header>
+        
+        <div class="about lobster-font-family">
+            <div class="container">
+                <h1 class="text-center text-capitalize" id="tentangkamar">Tentang STIE Indonesia</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <p>Kampus STIE Pontianak merupakan salah satu perguruan tinggi bidang ekonomi
+                            di Kota Pontianak. STIE ini menyediakan pendidikan tingkat diploma D3, D4 serta S1-sarjana
+                              dibidang Sistem Akuntansi, Manajemen, Keuangan,
+                               Administrasi Niaga dan lainnya (konfirmasi melalu kontak telepon).<br><br>
+                               Kampus STIE Pontianak memiliki staf pengajar dosen yang kompeten pada bidangnya
+                                sehingga berkualitas dan menjadi salah satu yang terbaik di Kota Pontianak. Kampus STIE
+                                 Pontianak juga memiliki organisasi mahasiswa untuk mendukung minat mahasiswanya baik BEM, 
+                                 Himpunan, dan unit kegiatan mahasiswa (UKM).</p>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img src="imgs/depan.jpg" style="width:100%;" alt="#" /><br>
+                    </div>
+                </div>
+                <h1 style="text-align: right;" class="text-capitalize" id="room">VISI MISI</h1>
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="img"></div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="block">
+                            <div style="text-align: justify;">
+                                <p>VISI:</p>
+                                <p>“Menjadikan STIE Indonesia Pontianak sebagai Sekolah Tinggi yang menghasilkan sumber daya manusia
+                                    di bidang manajemen dan akuntansi yang unggul, mandiri, dan berbudaya multikultural di Indonesia.”</p>
+                                <p>MISI:</p>
+                                <p>
+                                   1. Menyelenggarakan proses pembelajaran yang berkualitas.<br>
+                                   2.Meningkatkan produktivitas tenaga pendidik di bidang Tridharma Perguruan Tinggi.<br>
+                                   3.Meningkatkan kualifikasi dan kompetensi tenaga pendidik dan tenaga kependidikan.<br>
+                                   4.Mengembangkan kemitraan dengan berbagai pihak untuk penerapan dan pengembangan Ilmu Akuntansi
+                                    dan Manajemen.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gallery lobster-font-family" id="blog">
+            <div class="container">
+                <h1 class="text-calitalize text-center">Galeri Foto STIE</h1>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div ><img src="imgs/wisuda_bina_husada_kendari.jpg">
+                            <p>Wisuda Sarjana STIE</p>
+                        </div>
+                        <div ><img src="imgs/ruang_rapat.jpg">
+                            <p>Ruang Rapat</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="pic-three active"><img src="imgs/STIEI04new.jpg">
+                            <p>Seragam STIE</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="pic-four"><img src="imgs/ruang_akademik.jpg">
+                            <p>Ruang Akademik</p>
+                        </div>
+                        <div class="pic-five">
+                        <img src="imgs/ruang_perpus.jpg" style="width:100%;" alt="#" /><br>
+                            <p>Ruang Perpustakaan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider">
+            <h1 class="text-center text-capitalize lobster-font-family">Pimpinan STIE Indonesia Pontianak</h1>
+            <div id="slideToNext" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-block">
+                        <img src="imgs/th.jpg">
+                    <h5 style="font-family: 'Arial Narrow Bold';">Didi Rahmat, S.M , M.M</h5>
+                    <p>Ketua Pimpinan STIE Indonesia Pontianak</p>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <footer class="noto-font-family">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3 id="contact">Link</h3>
+                            <ul class="text-capitalize">
+                                <li><a href="#">Home</a></li><br><br>
+
+                                <li><a href="http://www.stieip.ac.id/">Website STIE Indonesia Pontianak</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3>Kontak Kami</h3>
+                            <p>Jalan Imam Bonjol No. 82 - 88 Kota Pontianak, Kalimantan Barat 72881<br>
+                                (0561) 761307<br>
+                                helpdesk@stiep.ac.id
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 form">
+                            <ul>
+                                <div id="map" style="vertical-align: top;">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.81730620589!2d109.34642431426944!3d-0.04085163554574147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59b6cb29d285%3A0x8dc5073950790779!2sSTIE%20&#39;INDONESIA&#39;%20Pontianak%2C%20ASMI%20%26%20STBA%20Pontianak!5e0!3m2!1sid!2sid!4v1634911114858!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <section id="contact" class="content-section">
+                
+        
+        <div class="copyright noto-font-family">
+            <p>© 2021 All Rights Reserved. Design by <a href="#home">INDAH PUSPA RANY</a></p>
+        </div>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(function () {
+                
+                'use strict';
+                
+                var winH = $(window).height();
+                
+                $('header').height(winH);
+                
+                $('.navbar ul.navbar-nav li a').on('click', function (e) {
+                    
+                    var getAttr = $(this).attr('href');
+                    
+                    e.preventDefault();
+                    $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
+                });
+            });
+        </script>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+                } else {
+                mybutton.style.display = "none";
+                }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
+</html>
